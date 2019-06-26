@@ -713,6 +713,7 @@ print "%s name is %s" % (Person.name, nico.name)
 
 #----------------------------------------#
 Question 26
+Level 1
 
 Question:
 Define a function which can compute the sum of two numbers.
@@ -727,7 +728,10 @@ def SumFunction(number1, number2):
 print SumFunction(1,2)
 
 #----------------------------------------#
+
+#----------------------------------------#
 Question 27
+Level 1
 
 Question:
 Define a function that can convert a integer into a string and print it in console.
@@ -741,24 +745,11 @@ def printValue(n):
 
 printValue(3)
 	
+#----------------------------------------#
 
 #----------------------------------------#
 Question 28
-
-Question:
-Define a function that can convert a integer into a string and print it in console.
-
-Hints:
-Use str() to convert a number to string.
-
-Solution:
-def printValue(n):
-	print str(n)
-
-printValue(3)
-
-#----------------------------------------#
-Question 29
+Level 1
 
 Question:
 Define a function that can receive two integral numbers in string form and compute their sum and then print it in console.
@@ -772,9 +763,11 @@ def printValue(s1,s2):
 
 printValue("3","4") #7
 
+#----------------------------------------#
 
 #----------------------------------------#
-Question 30
+Question 29
+Level 1
 
 Question:
 Define a function that can accept two strings as input and concatenate them and then print it in console.
@@ -789,10 +782,13 @@ def printValue(s1,s2):
 printValue("3","4") #34
 
 #----------------------------------------#
-Question 31
+
+#----------------------------------------#
+Question 30
+Level 1
 
 Question:
-Define a function that can accept two strings as input and print the string with maximum length in console. If two strings have the same length, then the function should print al l strings line by line.
+Define a function that can accept two strings as input and print the string with maximum length in console. If two strings have the same length, then the function should print all strings line by line.
 
 Hints:
 Use len() function to get the length of a string
@@ -811,8 +807,12 @@ def printValue(s1,s2):
 		
 
 printValue("one","three")
+
+#----------------------------------------#
+
 #----------------------------------------#
 Question 31
+Level 1
 
 Question:
 Define a function that can accept an integer number as input and print the "It is an even number" if the number is even, otherwise print "It is an odd number".
@@ -829,8 +829,12 @@ def checkValue(n):
 		
 
 checkValue(7)
+
+#----------------------------------------#
+
 #----------------------------------------#
 Question 32
+Level 2
 
 Question:
 Define a function which can print a dictionary where the keys are numbers between 1 and 3 (both included) and the values are square of keys.
@@ -849,10 +853,6 @@ def printDict():
 		
 
 printDict()
-
-
-
-
 
 #----------------------------------------#
 2.10
