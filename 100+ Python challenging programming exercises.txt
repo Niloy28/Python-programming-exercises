@@ -542,7 +542,10 @@ Use dict[key]=value pattern to put entry into a dictionary.
 Use ** operator to get power of a number.
 
 #----------------------------------------#
-2.10
+
+#----------------------------------------#
+Question 33
+Level 2
 
 Question:
 Define a function which can print a dictionary where the keys are numbers between 1 and 20 (both included) and the values are square of keys.
@@ -553,19 +556,11 @@ Use dict[key]=value pattern to put entry into a dictionary.
 Use ** operator to get power of a number.
 Use range() for loops.
 
-Solution
-def printDict():
-	d=dict()
-	for i in range(1,21):
-		d[i]=i**2
-	print d
-		
-
-printDict()
-
+#----------------------------------------#
 
 #----------------------------------------#
-2.10
+Question 34
+Level 2
 
 Question:
 Define a function which can generate a dictionary where the keys are numbers between 1 and 20 (both included) and the values are square of keys. The function should just print the values only.
@@ -577,19 +572,11 @@ Use ** operator to get power of a number.
 Use range() for loops.
 Use keys() to iterate keys in the dictionary. Also we can use item() to get key/value pairs.
 
-Solution
-def printDict():
-	d=dict()
-	for i in range(1,21):
-		d[i]=i**2
-	for (k,v) in d.items():	
-		print v
-		
-
-printDict()
+#----------------------------------------#
 
 #----------------------------------------#
-2.10
+Question 35
+Level 2
 
 Question:
 Define a function which can generate a dictionary where the keys are numbers between 1 and 20 (both included) and the values are square of keys. The function should just print the keys only.
@@ -601,20 +588,11 @@ Use ** operator to get power of a number.
 Use range() for loops.
 Use keys() to iterate keys in the dictionary. Also we can use item() to get key/value pairs.
 
-Solution
-def printDict():
-	d=dict()
-	for i in range(1,21):
-		d[i]=i**2
-	for k in d.keys():	
-		print k
-		
-
-printDict()
-
+#----------------------------------------#
 
 #----------------------------------------#
-2.10
+Question 36
+Level 2
 
 Question:
 Define a function which can generate and print a list where the values are square of numbers between 1 and 20 (both included).
@@ -625,18 +603,11 @@ Use ** operator to get power of a number.
 Use range() for loops.
 Use list.append() to add values into a list.
 
-Solution
-def printList():
-	li=list()
-	for i in range(1,21):
-		li.append(i**2)
-	print li
-		
-
-printList()
+#----------------------------------------#
 
 #----------------------------------------#
-2.10
+Question 37
+Level 2
 
 Question:
 Define a function which can generate a list where the values are square of numbers between 1 and 20 (both included). Then the function needs to print the first 5 elements in the list.
@@ -648,19 +619,11 @@ Use range() for loops.
 Use list.append() to add values into a list.
 Use [n1:n2] to slice a list
 
-Solution
-def printList():
-	li=list()
-	for i in range(1,21):
-		li.append(i**2)
-	print li[:5]
-		
-
-printList()
-
+#----------------------------------------#
 
 #----------------------------------------#
-2.10
+Question 38
+Level 2
 
 Question:
 Define a function which can generate a list where the values are square of numbers between 1 and 20 (both included). Then the function needs to print the last 5 elements in the list.
@@ -672,19 +635,11 @@ Use range() for loops.
 Use list.append() to add values into a list.
 Use [n1:n2] to slice a list
 
-Solution
-def printList():
-	li=list()
-	for i in range(1,21):
-		li.append(i**2)
-	print li[-5:]
-		
-
-printList()
-
+#----------------------------------------#
 
 #----------------------------------------#
-2.10
+Question 39
+Level 2
 
 Question:
 Define a function which can generate a list where the values are square of numbers between 1 and 20 (both included). Then the function needs to print all values except the first 5 elements in the list.
@@ -696,19 +651,11 @@ Use range() for loops.
 Use list.append() to add values into a list.
 Use [n1:n2] to slice a list
 
-Solution
-def printList():
-	li=list()
-	for i in range(1,21):
-		li.append(i**2)
-	print li[5:]
-		
-
-printList()
-
+#----------------------------------------#
 
 #----------------------------------------#
-2.10
+Question 40
+Level 2
 
 Question:
 Define a function which can generate and print a tuple where the value are square of numbers between 1 and 20 (both included). 
@@ -720,19 +667,11 @@ Use range() for loops.
 Use list.append() to add values into a list.
 Use tuple() to get a tuple from a list.
 
-Solution
-def printTuple():
-	li=list()
-	for i in range(1,21):
-		li.append(i**2)
-	print tuple(li)
-		
-printTuple()
-
-
+#----------------------------------------#
 
 #----------------------------------------#
-2.10
+Question 41
+Level 2
 
 Question:
 With a given tuple (1,2,3,4,5,6,7,8,9,10), write a program to print the first half values in one line and the last half values in one line. 
@@ -741,16 +680,11 @@ Hints:
 
 Use [n1:n2] notation to get a slice from a tuple.
 
-Solution
-tp=(1,2,3,4,5,6,7,8,9,10)
-tp1=tp[:5]
-tp2=tp[5:]
-print tp1
-print tp2
-
+#----------------------------------------#
 
 #----------------------------------------#
-2.10
+Question 42
+Level 2
 
 Question:
 Write a program to generate and print another tuple whose values are even numbers in the given tuple (1,2,3,4,5,6,7,8,9,10). 
@@ -760,20 +694,11 @@ Hints:
 Use "for" to iterate the tuple
 Use tuple() to generate a tuple from a list.
 
-Solution
-tp=(1,2,3,4,5,6,7,8,9,10)
-li=list()
-for i in tp:
-	if tp[i]%2==0:
-		li.append(tp[i])
-
-tp2=tuple(li)
-print tp2
-
-
+#----------------------------------------#
 
 #----------------------------------------#
-2.14
+Question 43
+Level 1
 
 Question:
 Write a program which accepts a string as input to print "Yes" if the string is "yes" or "YES" or "Yes", otherwise print "No". 
@@ -782,17 +707,11 @@ Hints:
 
 Use if statement to judge condition.
 
-Solution
-s= raw_input()
-if s=="yes" or s=="YES" or s=="Yes":
-    print "Yes"
-else:
-    print "No"
-
-
+#----------------------------------------#
 
 #----------------------------------------#
-3.4
+Question 44
+Level 2
 
 Question:
 Write a program which can filter even numbers in a list by using filter function. The list is: [1,2,3,4,5,6,7,8,9,10].
@@ -802,14 +721,11 @@ Hints:
 Use filter() to filter some elements in a list.
 Use lambda to define anonymous functions.
 
-Solution
-li = [1,2,3,4,5,6,7,8,9,10]
-evenNumbers = filter(lambda x: x%2==0, li)
-print evenNumbers
-
+#----------------------------------------#
 
 #----------------------------------------#
-3.4
+Question 45
+Level 2
 
 Question:
 Write a program which can map() to make a list whose elements are square of elements in [1,2,3,4,5,6,7,8,9,10].
@@ -819,13 +735,11 @@ Hints:
 Use map() to generate a list.
 Use lambda to define anonymous functions.
 
-Solution
-li = [1,2,3,4,5,6,7,8,9,10]
-squaredNumbers = map(lambda x: x**2, li)
-print squaredNumbers
+#----------------------------------------#
 
 #----------------------------------------#
-3.5
+Question 46
+Level 2
 
 Question:
 Write a program which can map() and filter() to make a list whose elements are square of even number in [1,2,3,4,5,6,7,8,9,10].
@@ -836,16 +750,11 @@ Use map() to generate a list.
 Use filter() to filter elements of a list.
 Use lambda to define anonymous functions.
 
-Solution
-li = [1,2,3,4,5,6,7,8,9,10]
-evenNumbers = map(lambda x: x**2, filter(lambda x: x%2==0, li))
-print evenNumbers
-
-
-
+#----------------------------------------#
 
 #----------------------------------------#
-3.5
+Question 47
+Level 2
 
 Question:
 Write a program which can filter() to make a list whose elements are even number between 1 and 20 (both included).
@@ -855,13 +764,11 @@ Hints:
 Use filter() to filter elements of a list.
 Use lambda to define anonymous functions.
 
-Solution
-evenNumbers = filter(lambda x: x%2==0, range(1,21))
-print evenNumbers
-
+#----------------------------------------#
 
 #----------------------------------------#
-3.5
+Question 48
+Level 2
 
 Question:
 Write a program which can map() to make a list whose elements are square of numbers between 1 and 20 (both included).
@@ -871,15 +778,11 @@ Hints:
 Use map() to generate a list.
 Use lambda to define anonymous functions.
 
-Solution
-squaredNumbers = map(lambda x: x**2, range(1,21))
-print squaredNumbers
-
-
-
+#----------------------------------------#
 
 #----------------------------------------#
-7.2
+Question 49
+Level 2
 
 Question:
 Define a class named American which has a static method called printNationality.
@@ -888,22 +791,11 @@ Hints:
 
 Use @staticmethod decorator to define class static method.
 
-Solution
-class American(object):
-    @staticmethod
-    def printNationality():
-        print "America"
-
-anAmerican = American()
-anAmerican.printNationality()
-American.printNationality()
-
-
-
-
 #----------------------------------------#
 
-7.2
+#----------------------------------------#
+Question 50
+Level 2
 
 Question:
 Define a class named American and its subclass NewYorker. 
@@ -912,26 +804,11 @@ Hints:
 
 Use class Subclass(ParentClass) to define a subclass.
 
-Solution:
-
-class American(object):
-    pass
-
-class NewYorker(American):
-    pass
-
-anAmerican = American()
-aNewYorker = NewYorker()
-print anAmerican
-print aNewYorker
-
-
-
-
 #----------------------------------------#
 
-
-7.2
+#----------------------------------------#
+Question 51
+Level 2
 
 Question:
 Define a class named Circle which can be constructed by a radius. The Circle class has a method which can compute the area. 
@@ -940,122 +817,59 @@ Hints:
 
 Use def methodName(self) to define a method.
 
-Solution:
-
-class Circle(object):
-    def __init__(self, r):
-        self.radius = r
-
-    def area(self):
-        return self.radius**2*3.14
-
-aCircle = Circle(2)
-print aCircle.area()
-
-
-
-
-
-
 #----------------------------------------#
 
-7.2
+#----------------------------------------#
+Question 52
+Level 2
 
+Question:
 Define a class named Rectangle which can be constructed by a length and width. The Rectangle class has a method which can compute the area. 
 
 Hints:
 
 Use def methodName(self) to define a method.
 
-Solution:
-
-class Rectangle(object):
-    def __init__(self, l, w):
-        self.length = l
-        self.width  = w
-
-    def area(self):
-        return self.length*self.width
-
-aRectangle = Rectangle(2,10)
-print aRectangle.area()
-
-
-
-
 #----------------------------------------#
 
-7.2
+#----------------------------------------#
+Question 53
+Level 2
 
+Question:
 Define a class named Shape and its subclass Square. The Square class has an init function which takes a length as argument. Both classes have a area function which can print the area of the shape where Shape's area is 0 by default.
 
 Hints:
 
 To override a method in super class, we can define a method with the same name in the super class.
 
-Solution:
-
-class Shape(object):
-    def __init__(self):
-        pass
-
-    def area(self):
-        return 0
-
-class Square(Shape):
-    def __init__(self, l):
-        Shape.__init__(self)
-        self.length = l
-
-    def area(self):
-        return self.length*self.length
-
-aSquare= Square(3)
-print aSquare.area()
-
-
-
-
-
-
-
-
 #----------------------------------------#
 
+#----------------------------------------#
+Question 54
+Level 2
 
+Question:
 Please raise a RuntimeError exception.
 
 Hints:
 
 Use raise() to raise an exception.
 
-Solution:
-
-raise RuntimeError('something wrong')
-
-
+#----------------------------------------#
 
 #----------------------------------------#
+Question 55
+Level 2
+
+Question:
 Write a function to compute 5/0 and use try/except to catch the exceptions.
 
 Hints:
 
 Use try/except to catch exceptions.
 
-Solution:
-
-def throws():
-    return 5/0
-
-try:
-    throws()
-except ZeroDivisionError:
-    print "division by zero!"
-except Exception, err:
-    print 'Caught an exception'
-finally:
-    print 'In finally block for cleanup'
-
+#----------------------------------------#
 
 #----------------------------------------#
 Define a custom exception class which takes a string message as attribute.
@@ -1077,6 +891,8 @@ class MyError(Exception):
         self.msg = msg
 
 error = MyError("something wrong")
+
+#----------------------------------------#
 
 #----------------------------------------#
 Question:
@@ -1105,6 +921,8 @@ pat2 = "(\w+)@((\w+\.)+(com))"
 r2 = re.match(pat2,emailAddress)
 print r2.group(1)
 
+
+#----------------------------------------#
 
 #----------------------------------------#
 Question:
@@ -1137,6 +955,8 @@ print r2.group(2)
 
 
 #----------------------------------------#
+
+#----------------------------------------#
 Question:
 
 Write a program which accepts a sequence of words separated by whitespace as input to print the words composed of digits only.
@@ -1163,6 +983,8 @@ print re.findall("\d+",s)
 
 
 #----------------------------------------#
+
+#----------------------------------------#
 Question:
 
 
@@ -1178,6 +1000,8 @@ unicodeString = u"hello world!"
 print unicodeString
 
 #----------------------------------------#
+
+#----------------------------------------#
 Write a program to read an ASCII string and to convert it to a unicode string encoded by utf-8.
 
 Hints:
@@ -1191,6 +1015,8 @@ u = unicode( s ,"utf-8")
 print u
 
 #----------------------------------------#
+
+#----------------------------------------#
 Question:
 
 Write a special comment to indicate a Python source code file is in unicode.
@@ -1200,6 +1026,8 @@ Hints:
 Solution:
 
 # -*- coding: utf-8 -*-
+
+#----------------------------------------#
 
 #----------------------------------------#
 Question:
@@ -1228,6 +1056,8 @@ for i in range(1,n+1):
     sum += float(float(i)/(i+1))
 print sum
 
+
+#----------------------------------------#
 
 #----------------------------------------#
 Question:
@@ -1263,6 +1093,8 @@ def f(n):
 
 n=int(raw_input())
 print f(n)
+
+#----------------------------------------#
 
 #----------------------------------------#
 
@@ -1350,6 +1182,8 @@ print ",".join(values)
 
 #----------------------------------------#
 
+#----------------------------------------#
+
 Question:
 
 Please write a program using generator to print the even numbers between 0 and n in comma separated form while n is input by console.
@@ -1388,6 +1222,8 @@ print ",".join(values)
 
 #----------------------------------------#
 
+#----------------------------------------#
+
 Question:
 
 Please write a program using generator to print the numbers which can be divisible by 5 and 7 between 0 and n in comma separated form while n is input by console.
@@ -1423,6 +1259,8 @@ print ",".join(values)
 
 #----------------------------------------#
 
+#----------------------------------------#
+
 Question:
 
 
@@ -1440,6 +1278,8 @@ li = [2,4,6,8]
 for i in li:
     assert i%2==0
 
+
+#----------------------------------------#
 
 #----------------------------------------#
 Question:
@@ -1466,39 +1306,6 @@ print eval(expression)
 
 
 #----------------------------------------#
-Question:
-
-Please write a binary search function which searches an item in a sorted list. The function should return the index of element to be searched in the list.
-
-
-Hints:
-Use if/elif to deal with conditions.
-
-
-Solution:
-
-import math
-def bin_search(li, element):
-    bottom = 0
-    top = len(li)-1
-    index = -1
-    while top>=bottom and index==-1:
-        mid = int(math.floor((top+bottom)/2.0))
-        if li[mid]==element:
-            index = mid
-        elif li[mid]>element:
-            top = mid-1
-        else:
-            bottom = mid+1
-
-    return index
-
-li=[2,5,7,9,11,17,222]
-print bin_search(li,11)
-print bin_search(li,12)
-
-
-
 
 #----------------------------------------#
 Question:
@@ -1534,6 +1341,45 @@ print bin_search(li,12)
 
 
 
+#----------------------------------------#
+
+#----------------------------------------#
+
+Question:
+
+Please write a binary search function which searches an item in a sorted list. The function should return the index of element to be searched in the list.
+
+
+Hints:
+Use if/elif to deal with conditions.
+
+
+Solution:
+
+import math
+def bin_search(li, element):
+    bottom = 0
+    top = len(li)-1
+    index = -1
+    while top>=bottom and index==-1:
+        mid = int(math.floor((top+bottom)/2.0))
+        if li[mid]==element:
+            index = mid
+        elif li[mid]>element:
+            top = mid-1
+        else:
+            bottom = mid+1
+
+    return index
+
+li=[2,5,7,9,11,17,222]
+print bin_search(li,11)
+print bin_search(li,12)
+
+
+
+
+#----------------------------------------#
 
 #----------------------------------------#
 Question:
@@ -1550,6 +1396,8 @@ Solution:
 
 import random
 print random.random()*100
+
+#----------------------------------------#
 
 #----------------------------------------#
 Question:
@@ -1569,6 +1417,8 @@ print random.random()*100-5
 
 
 #----------------------------------------#
+
+#----------------------------------------#
 Question:
 
 Please write a program to output a random even number between 0 and 10 inclusive using random module and list comprehension.
@@ -1584,6 +1434,8 @@ Solution:
 import random
 print random.choice([i for i in range(11) if i%2==0])
 
+
+#----------------------------------------#
 
 #----------------------------------------#
 Question:
@@ -1605,6 +1457,8 @@ print random.choice([i for i in range(201) if i%5==0 and i%7==0])
 
 #----------------------------------------#
 
+#----------------------------------------#
+
 Question:
 
 Please write a program to generate a list with 5 random numbers between 100 and 200 inclusive.
@@ -1619,6 +1473,8 @@ Solution:
 
 import random
 print random.sample(range(100), 5)
+
+#----------------------------------------#
 
 #----------------------------------------#
 Question:
@@ -1638,6 +1494,8 @@ print random.sample([i for i in range(100,201) if i%2==0], 5)
 
 
 #----------------------------------------#
+
+#----------------------------------------#
 Question:
 
 Please write a program to randomly generate a list with 5 numbers, which are divisible by 5 and 7 , between 1 and 1000 inclusive.
@@ -1655,6 +1513,8 @@ print random.sample([i for i in range(1,1001) if i%5==0 and i%7==0], 5)
 
 #----------------------------------------#
 
+#----------------------------------------#
+
 Question:
 
 Please write a program to randomly print a integer number between 7 and 15 inclusive.
@@ -1669,6 +1529,8 @@ Solution:
 
 import random
 print random.randrange(7,16)
+
+#----------------------------------------#
 
 #----------------------------------------#
 
@@ -1691,6 +1553,8 @@ print t
 print zlib.decompress(t)
 
 #----------------------------------------#
+
+#----------------------------------------#
 Question:
 
 Please write a program to print the running time of execution of "1+1" for 100 times.
@@ -1707,6 +1571,8 @@ t = Timer("for i in range(100):1+1")
 print t.timeit()
 
 #----------------------------------------#
+
+#----------------------------------------#
 Question:
 
 Please write a program to shuffle and print the list [3,6,7,8].
@@ -1722,6 +1588,8 @@ from random import shuffle
 li = [3,6,7,8]
 shuffle(li)
 print li
+
+#----------------------------------------#
 
 #----------------------------------------#
 Question:
@@ -1741,6 +1609,8 @@ shuffle(li)
 print li
 
 
+
+#----------------------------------------#
 
 #----------------------------------------#
 Question:
@@ -1763,6 +1633,8 @@ for i in range(len(subjects)):
 
 
 #----------------------------------------#
+
+#----------------------------------------#
 Please write a program to print the list after removing delete even numbers in [5,6,77,45,22,12,24].
 
 Hints:
@@ -1773,6 +1645,8 @@ Solution:
 li = [5,6,77,45,22,12,24]
 li = [x for x in li if x%2!=0]
 print li
+
+#----------------------------------------#
 
 #----------------------------------------#
 Question:
@@ -1788,6 +1662,8 @@ li = [12,24,35,70,88,120,155]
 li = [x for x in li if x%5!=0 and x%7!=0]
 print li
 
+
+#----------------------------------------#
 
 #----------------------------------------#
 Question:
@@ -1806,6 +1682,8 @@ print li
 
 #----------------------------------------#
 
+#----------------------------------------#
+
 Question:
 
 By using list comprehension, please write a program generate a 3*5*8 3D array whose each element is 0.
@@ -1817,6 +1695,8 @@ Solution:
 
 array = [[ [0 for col in range(8)] for col in range(5)] for row in range(3)]
 print array
+
+#----------------------------------------#
 
 #----------------------------------------#
 Question:
@@ -1837,6 +1717,8 @@ print li
 
 #----------------------------------------#
 
+#----------------------------------------#
+
 Question:
 
 By using list comprehension, please write a program to print the list after removing the value 24 in [12,24,35,24,88,120,155].
@@ -1850,6 +1732,8 @@ li = [12,24,35,24,88,120,155]
 li = [x for x in li if x!=24]
 print li
 
+
+#----------------------------------------#
 
 #----------------------------------------#
 Question:
@@ -1866,6 +1750,8 @@ set2=set([12,24,35,24,88,120,155])
 set1 &= set2
 li=list(set1)
 print li
+
+#----------------------------------------#
 
 #----------------------------------------#
 
@@ -1889,6 +1775,8 @@ def removeDuplicate( li ):
 li=[12,24,35,24,88,120,155,88,120,155]
 print removeDuplicate(li)
 
+
+#----------------------------------------#
 
 #----------------------------------------#
 Question:
@@ -1918,6 +1806,8 @@ print aMale.getGender()
 print aFemale.getGender()
 
 
+
+#----------------------------------------#
 
 #----------------------------------------#
 Question:
@@ -1953,6 +1843,8 @@ print '\n'.join(['%s,%s' % (k, v) for k, v in dic.items()])
 
 #----------------------------------------#
 
+#----------------------------------------#
+
 Question:
 
 Please write a program which accepts a string from console and print it in reverse order.
@@ -1974,6 +1866,8 @@ Solution:
 s=raw_input()
 s = s[::-1]
 print s
+
+#----------------------------------------#
 
 #----------------------------------------#
 
@@ -2000,6 +1894,8 @@ s = s[::2]
 print s
 #----------------------------------------#
 
+#----------------------------------------#
+
 
 Question:
 
@@ -2013,6 +1909,8 @@ Solution:
 
 import itertools
 print list(itertools.permutations([1,2,3]))
+
+#----------------------------------------#
 
 #----------------------------------------#
 Question:
@@ -2037,6 +1935,8 @@ numheads=35
 numlegs=94
 solutions=solve(numheads,numlegs)
 print solutions
+
+#----------------------------------------#
 
 #----------------------------------------#
 
